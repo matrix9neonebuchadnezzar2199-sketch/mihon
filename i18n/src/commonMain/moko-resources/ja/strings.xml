@@ -406,6 +406,12 @@
     <string name="parental_controls_info">これは、非公式の拡張機能や誤ってフラグ付けされた可能性のある拡張機能が、アプリ内で NSFW（18 歳以上向け）コンテンツを表示することを防ぐものではありません。</string>
     <string name="no_chapters_error">章が見つかりません</string>
     <string name="chapter_settings_updated">デフォルトの章設定を更新しました</string>
+    <string name="action_select_category">カテゴリーを選択</string>
+    <string name="action_list_view">リスト表示</string>
+    <string name="action_thumbnail_view">サムネイル表示</string>
+    <string name="action_nested_view">ツリー表示</string>
+    <string name="category_count">%d件のカテゴリー</string>
+    <string name="category_item_count">%d件</string>
     <string name="share_page_info">%1$s: %2$s、第 %3$d ページ</string>
     <string name="set_chapter_settings_as_default">デフォルトとして設定</string>
     <string name="also_set_chapter_settings_for_library">ライブラリにあるすべての項目にも適用</string>

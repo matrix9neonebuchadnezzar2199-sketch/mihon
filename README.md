@@ -38,6 +38,18 @@ Discover and read manga, webtoons, comics, and more – easier than ever on your
 
 </div>
 
+## Fork customizations (`matrix9neonebuchadnezzar2199-sketch/mihon`)
+
+This repository is a personal fork of [mihonapp/mihon](https://github.com/mihonapp/mihon). Changes below apply only to builds from this fork.
+
+### Category tree display
+
+- **Naming**: Category names use the first `/` as a group delimiter (e.g. `少年/SF`, `少年/バトル` → parent `少年`). Only groups with two or more children are nested; a single `親/子` entry stays flat.
+- **Library**: Long-press a category tab to open the category overlay (list / nested / thumbnail modes).
+- **Set categories** (`カテゴリーを設定`): The same nested tree is used when assigning categories to library entries (add to library, bulk edit, manga screen, browse, history). Parent rows expand/collapse; checkboxes apply to leaf categories only.
+
+Unit tests: `app/src/test/java/eu/kanade/presentation/category/CategoryTreeTest.kt`
+
 ## Contributing
 
 [Code of conduct](./CODE_OF_CONDUCT.md) · [Contributing guide](./CONTRIBUTING.md)
